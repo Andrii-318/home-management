@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Управління будинком</title>
+    <link
+      rel="stylesheet"
+      href="styles/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Управління будинком</h1>
+      <div id="personForm">
+        <input
+          type="text"
+          id="name"
+          placeholder="Ім'я" />
+        <select id="gender">
+          <option value="чоловік">Чоловік</option>
+          <option value="жінка">Жінка</option>
+        </select>
+        <select id="apartmentSelect"></select>
+        <button onclick="addPerson()">Додати особу</button>
+        <button onclick="addApartment()">Додати квартиру</button>
+        <button onclick="createBuilding()">Створити будинок</button>
+      </div>
+      <div id="apartmentInfo">
+        <h2>Інформація про квартиру</h2>
+        <div id="residentsList"></div>
+      </div>
+    </div>
+    <script src="src/script.js"></script>
+  </body>
+</html>

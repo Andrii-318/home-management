@@ -1,0 +1,64 @@
+body,
+input,
+select,
+button {
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #333;
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#personForm input,
+#personForm select {
+  padding: 12px 20px;
+  margin-top: 10px;
+  width: 90%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.3s ease;
+  margin-bottom: 10px;
+}
+
+input:focus,
+select:focus {
+  border-color: #0056b3;
+  box-shadow: 0 0 8px rgba(0, 86, 179, 0.5);
+}
+
+button {
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#apartmentInfo {
+  margin-top: 30px;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#residentsList {
+  text-align: left;
+  padding-left: 20px;
+}
